@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: 'poppins'; 
 }
 .top-box{
     height:40px;
@@ -8,12 +9,13 @@
     justify-content: space-between;
     padding: 20px;
     color: aliceblue;
+   
 }
 .navigation-box {
     /* border: 5px solid white; */
     height: 60px;
     width: 800px;
-   
+    
 }
 .navigation-box ul{
     text-decoration: none;
@@ -27,15 +29,18 @@
     list-style: none;
     color: aliceblue;
 }
+.navigation-box ul li a:hover{
+    color: rgb(100, 100, 244);
+}
 .about-box{
-    height: 600px;
+    height: 610px;
     background-color: rgb(0, 0, 33);
 }
 .about-box h1{
     color: aliceblue;
     text-align: center;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 50px;
+    padding: 10px;
 
 }
 .about-box-row{
@@ -43,7 +48,9 @@
     height: 400px;
     width: 1100px;
     margin: auto;
+    padding: 25px;
     display: flex;
+    justify-content: space-between;
 }
 .about-col{
     /* border: 2px solid yellow; */
@@ -52,6 +59,12 @@
     color: white;
 
 }
+.about-col p{
+    font-size: 33px;
+}
+.name{
+    color: rgb(230, 153, 87);
+}
 .about-col img{
     height: 100%;
     margin-left: 80px;
@@ -59,7 +72,7 @@
 }
 .projects{
     background-color: #EDEDED;
-    height: 1200px;
+    height: 600px;
 }
 .projects h1{
     /* color: aliceblue; */
@@ -78,7 +91,7 @@
 }
 .achivement{
     background-color: black;
-    height: 500px;
+    height: 610px;
     color: white;
 }
 .achivement h1{
@@ -91,11 +104,11 @@
 }
 .contacts{
     background-color: #EDEDED;
-    height: 600px;
+    height: 640px;
 }
 .contacts h1{
     font-size: 40px;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 .contacts form{
@@ -104,7 +117,7 @@
     height: auto;
     margin: auto;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
 }
 form{
     font-family: Arial, Helvetica, sans-serif;
@@ -113,7 +126,12 @@ form{
 }
 input{
     margin-left: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+textarea{
+    margin-left: 50px;
+    border-radius: 10px;
     padding: 10px 0px;
 }
 table{
@@ -129,24 +147,36 @@ label{
     
 }
 input[type='submit']{
-    background-color: blue;
-    width: 70%;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    color: white;
+    margin-left: 225px;
+    border: 1px solid white;
+}
+input[type='submit']:hover{
+    background-color: rgb(35, 38, 38);
 }
 .social-media{
     background-color: rgb(2, 2, 44);
-    height: 40px;
-    margin-top: 10px;
+    height: 60px;
+    margin-top: 20px;
 }
 .social-media td{
     border-right: 1px solid white;
     /* height: 10px; */
-    padding: 0px 45px;
+    padding: 15px 45px;
+    
 }
 .social-media table td:last-child{
     border-right: none;
 }
 .social-media table{
-    font-size: 18px;
+    font-size: 16px;
+
+}
+.social-media a{
+    color: white;
+    text-decoration: none;  
 }
 footer{
     background-color: rgb(25, 25, 95);
@@ -155,4 +185,8 @@ footer{
     height: 40px;
     padding: 10px;
     text-align: center;
+}
+.navigation-box a {
+    color: white;
+    text-decoration: none;
 }
